@@ -11,9 +11,16 @@
     <Copyright>@2024 Ramazan Kurt. Tüm hakları saklıdır.</Copyright>
     <PackageIcon>Lunavex.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ramazankurt56/Lunavex.Result.git</RepositoryUrl>
+    <PackageTags>result</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="Lunavex.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
