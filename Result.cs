@@ -6,7 +6,6 @@ public sealed class Result<T>
     public T? Data { get; set; }
 
     public List<string>? ErrorMessages { get; set; }
-    public string? ErrorMessages2 { get; set; }
 
     public bool IsSuccessful { get; set; } = true;
 
